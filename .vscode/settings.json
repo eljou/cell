@@ -5,5 +5,8 @@
 		"javascript",
 		{"language": "typescript", "autoFix": true}
 	],
-	"eslint.enable": true
+	"eslint.enable": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	}
 }
